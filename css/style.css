@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.page-header {
+  margin: 30px 8px;
+  padding: 12px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+.img-div {
+  padding: 12px;
+  margin: 0;
+  background: white;
+}
+
+.image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+.page-subscipt {
+  text-align: center;
+  font-size: 23px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 75px;
+  line-height: 1.5;
+  text-align: center;
+  color: #444;
+  margin: 0;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.4;
+}
+
+li {
+  margin: 17px 0;
+  display: list-item;
+  text-align: inherit;
+}
+
+.id {
+  text-align: center;
+  font-size: 19px;
+}
