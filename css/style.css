@@ -10,6 +10,16 @@
   border-radius: 5px;
   background: #eee;
 }
+@media screen and (max-width: 900px) {
+  .page-header{
+    margin: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .page-header h1{
+    font-size: 57px;
+  }
+}
 
 .img-div {
   padding: 12px;
@@ -27,6 +37,11 @@
 .page-subscipt {
   text-align: center;
   font-size: 23px;
+}
+@media screen and (max-width: 375px) {
+  .page-subscipt {
+    font-size: 19px;
+  }
 }
 
 body {
@@ -49,9 +64,34 @@ li {
   margin: 17px 0;
   display: list-item;
   text-align: inherit;
+  font-size: 17px;
 }
 
 .id {
   text-align: center;
   font-size: 19px;
+}
+
+.id-abt{
+  font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+  .id-abt{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .id-abt{
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .id-abt{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .id-abt{
+    font-size: 12px;
+  }
 }
